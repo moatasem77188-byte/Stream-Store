@@ -1,0 +1,144 @@
+body {
+    font-family: 'Cairo', Arial, sans-serif;
+    background: #181920;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+header {
+    background: #232431;
+    padding: 15px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 18px;
+}
+nav a {
+    text-decoration: none;
+    color: #eee;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+nav a:hover { color: #fc6c85; }
+.hero {
+    background: #282a36;
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
+.cta-btn {
+    background: #fc6c85;
+    color: #fff;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1em;
+    margin-top: 18px;
+    display: inline-block;
+    transition: background 0.2s;
+    text-decoration: none;
+}
+.cta-btn:hover { background: #ff4757; }
+.products {
+    padding: 35px 5%;
+}
+.product-list {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.product-card {
+    background: #232431;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px #0002;
+    padding: 16px;
+    width: 200px;
+    text-align: center;
+}
+.product-card img {
+    width: 90%;
+    border-radius: 6px;
+}
+.product-card button {
+    background: #fc6c85;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    padding: 8px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.product-card button:hover { background: #ff4757; }
+.about {
+    background: #22232e;
+    margin: 36px 5% 0 5%;
+    padding: 30px 18px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #0002;
+    text-align: center;
+}
+.about h3 {
+    color: #fc6c85;
+    margin-bottom: 12px;
+}
+.about p {
+    font-size: 1.1em;
+    color: #eee;
+    margin: 0;
+}
+footer {
+    background: #232431;
+    text-align: center;
+    padding: 14px;
+    margin-top: 40px;
+    color: #aaa;
+}
+.contact {
+    background: #22232e;
+    margin: 36px 5% 0 5%;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #0002;
+}
+.contact h3 {
+    color: #fc6c85;
+    margin-bottom: 18px;
+}
+.contact label,
+.contact input,
+.contact textarea,
+.contact button {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.contact input, .contact textarea {
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 4px;
+    font-size: 1em;
+}
+.contact button {
+    background: #fc6c85;
+    color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+.contact button:hover {
+    background: #ff4757;
+}
